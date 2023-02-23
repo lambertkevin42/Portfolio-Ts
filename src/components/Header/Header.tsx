@@ -6,7 +6,11 @@ const Header: React.FC = () => {
     return (
         <div className="header">
             <p className="header-text"><strong>KL</strong></p>
-            <HeaderNav/>
+            <HeaderNav
+                link1="about"
+                link2="about"
+                link3="about"
+            />
         </div>
     );
 }

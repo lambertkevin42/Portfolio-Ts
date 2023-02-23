@@ -4,7 +4,13 @@ import { toggleBurger } from '../../actions/burgerActions';
 import { RootState } from "../../reducers/rootReducer";
 import '../HeaderNav/headernav.scss';
 
-const HeaderNav: React.FC = () => {
+interface HeaderNavProps {
+    link1: string;
+    link2: string;
+    link3: string;
+}
+
+const HeaderNav: React.FC<HeaderNavProps> = ({link1, link2, link3}) => {
     const dispatch = useDispatch();
     const { burgerIsOpen } = useSelector((state: RootState) => state.burger);
     const handleClick = () => {
@@ -18,19 +24,19 @@ const HeaderNav: React.FC = () => {
                     className="header-nav-link"
                     to=""
                 >
-                    About
+                    {link1}
                 </NavLink>
                 <NavLink
                     className="header-nav-link"
                     to=""
                 >
-                    lorem
+                    {link2}
                 </NavLink>
                 <NavLink
                     className="header-nav-link"
                     to=""
                 >
-                    lorem
+                    {link3}
                 </NavLink>
             </ul>
             <button

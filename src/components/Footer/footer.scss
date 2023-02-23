@@ -1,0 +1,20 @@
+@use 'src/styles/vars';
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    padding: vars.$gutter;
+    justify-content: center;
+    align-items:center;
+
+    &-logo{
+        width: 30px;
+        margin: vars.$gutter;
+        &:hover{
+            color: vars.$yellow;
+        }
+    }
+
+}

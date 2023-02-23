@@ -10,6 +10,7 @@ interface Action {
 
 const initialState: State = {
   burgerIsOpen: false,
+
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
