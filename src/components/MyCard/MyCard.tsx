@@ -1,6 +1,6 @@
 import React from 'react';
 import '../MyCard/mycard.scss';
-import moi from '../../assets/images/moiv2.webp';
+import moi from '../../assets/images/moi.webp';
 
 interface MyCardProps {
   title: string;
