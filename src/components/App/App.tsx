@@ -1,34 +1,34 @@
-import React, { useEffect } from "react";
-import { useLocation, Location } from "react-router-dom";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import MyCard from "../MyCard/MyCard";
+import React, { useEffect } from 'react';
+import { useLocation, Location } from 'react-router-dom';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import MyCard from '../MyCard/MyCard';
 import './app.scss';
 
 const App: React.FC = () => {
-    const location: Location = useLocation();
-  
+  const location: Location = useLocation();
+
   useEffect(() => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: 'smooth'
+      behavior: 'smooth',
     });
   }, [location]);
-  
-    return (
-      <div className="app">
-        <Header/>
-        <MyCard 
-        title="Bienvenue." 
-        textUp="Je m'appelle Kévin Lambert, je suis développeur web & web mobile" 
-        text1="Originaire de Saint-Etienne, Loire. Je suis heureux de vous présenter mon portfolio." 
+
+  return (
+    <div className="app">
+      <Header />
+      <MyCard
+        title="Bienvenue."
+        textUp="Je m'appelle Kévin Lambert, je suis développeur web & web mobile"
+        text1="Originaire de Saint-Etienne, Loire. Je suis heureux de vous présenter mon portfolio."
         text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacuns de mes projets. Espérant que votre expérience ici, sera des plus agréable, je vous laisse me découvrir."
-        imgAlt="kévin lambert" 
-        />
-        <Footer/>
-      </div>
-    );
+        imgAlt="kévin lambert"
+      />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;

@@ -1,4 +1,4 @@
-import { TOGGLE_BURGER } from "../actions/burgerActions";
+import { TOGGLE_BURGER } from '../actions/burgerActions';
 
 interface State {
   burgerIsOpen: boolean;
@@ -10,11 +10,10 @@ interface Action {
 
 const initialState: State = {
   burgerIsOpen: false,
-
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
-  switch (action.type){
+  switch (action.type) {
     case TOGGLE_BURGER:
       return {
         ...state,

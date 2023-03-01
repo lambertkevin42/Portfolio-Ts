@@ -1,13 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
-import  store  from './store/store';
+import store from './store/store';
 import App from './components/App/App';
 import { BrowserRouter } from 'react-router-dom';
-import '../src/styles/index.scss'
+import '../src/styles/index.scss';
 
-
-const container = document.getElementById('root')!;
+const container = document.getElementById('root') as HTMLElement;
 const root = createRoot(container);
 
 root.render(
@@ -17,4 +16,3 @@ root.render(
     </BrowserRouter>
   </Provider>
 );
-
