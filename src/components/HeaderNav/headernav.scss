@@ -70,3 +70,38 @@
         }
     }
   }
+
+  @media only screen and (min-width: 768px) {
+    button {
+      display: none;
+    }
+  
+    .header-nav {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    
+      &-links, &-links--closed {
+        position:static;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        gap: 5rem;
+      }
+  
+      &-link {
+        color: vars.$white;
+        margin: vars.$gutter*0.5;
+        padding: vars.$gutter*0.5;
+        font-size: large;
+        transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+        
+        &:hover {
+          box-shadow: inset 16vh 0 0 0 vars.$white;
+          color: vars.$dark;
+        }
+      }
+    }
+  }
