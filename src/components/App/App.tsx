@@ -21,8 +21,8 @@ const App: React.FC = () => {
       <Header />
       <MyCard
         title="Bienvenue."
-        textUp="Je m'appelle Kévin Lambert, je suis développeur web & web mobile"
-        text1="Originaire de Saint-Etienne, Loire. Je suis heureux de vous présenter mon portfolio."
+        textUp="Je m'appelle Kévin Lambert, je suis développeur Frontend."
+        text1="Originaire de Saint-Etienne, je suis heureux de vous présenter mon portfolio."
         text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacuns de mes projets. Espérant que votre expérience ici, sera des plus agréable, je vous laisse me découvrir."
         imgAlt="kévin lambert"
       />
