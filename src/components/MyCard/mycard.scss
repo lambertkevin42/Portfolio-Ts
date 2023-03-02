@@ -41,8 +41,17 @@
 @media only screen and (min-width: 768px) {
 
     .mycard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &-infos{
+            width: 50%;
+        }
     
         &-title{
+            width: 100%;
             margin-left: vars.$gutter*1.5;
         }
         &-img{
@@ -55,9 +64,12 @@
 @media only screen and (min-width: 1024px) {
 
     .mycard{
+        &-infos{
+            width: 40%;
+        }
     
         &-title{
-            margin-left: vars.$gutter*2.5;
+            margin-left: vars.$gutter*5;
         }
         &-img{
             width: 30%;    
@@ -68,9 +80,14 @@
 @media only screen and (min-width: 1440px) {
 
     .mycard{
+
+        &-infos{
+            width: 30%;
+        }
     
         &-title{
-            margin-left: vars.$gutter*4;
+            margin-left: vars.$gutter*10;
+            margin-top: vars.$gutter*2;
         }
         &-img{
             width: 25%;    
