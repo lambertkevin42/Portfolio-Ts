@@ -25,14 +25,11 @@
         width: auto;
         text-align: center;
         font-size: 1rem;
+        transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
   
         &:hover {
-            color: vars.$yellow;
-        }
-    
-        &-button {
-            all: unset;
-            cursor: pointer;
+            box-shadow: inset 400px 0 0 0 vars.$white;
+            color: vars.$dark;
         }
     }
   
