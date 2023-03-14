@@ -4,7 +4,7 @@ import toggleButtonReducer from './toggleButtonReducer';
 
 const rootReducer = combineReducers({
   burger: burgerReducer,
-  toggle: toggleButtonReducer,
+  button: toggleButtonReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

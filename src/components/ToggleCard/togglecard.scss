@@ -2,8 +2,23 @@
 
 .togglecard{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    border: 1px solid red;
-    justify-content: center;
-    margin-top: vars.$gutter*3;
+    align-items: center;
+    
+    &-content{
+        display: flex;
+        width: 80%;
+        border-right: 1px solid vars.$white;
+        border-left: 1px solid vars.$white;
+        border-bottom: 1px solid vars.$white;
+        justify-content: center;
+        padding: vars.$gutter;
+        text-align: center;
+    }
+}
+
+.togglecard-closed{
+    display: none;
+
 }

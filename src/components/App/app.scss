@@ -5,17 +5,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url("../../assets/images/background.webp");
-    background-size: cover;
-    background-size: 2160px 3840px;
-    background-size: 200%;
     
     
 }
 
-@media only screen and (min-width: 768px) {
-    .app{
-        background-size: 100%;
-    }
-}
 

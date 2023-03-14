@@ -1,7 +1,7 @@
 import { TOGGLE_BUTTON } from '../actions/toggleButtonAction';
 
 interface State {
-  ToggleButtonIsOpen: boolean;
+  toggleButtonIsOpen: boolean;
 }
 
 interface Action {
@@ -9,7 +9,7 @@ interface Action {
 }
 
 const initialState: State = {
-  ToggleButtonIsOpen: false,
+  toggleButtonIsOpen: false,
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
@@ -17,7 +17,7 @@ function reducer(state: State = initialState, action: Action = { type: '' }): St
     case TOGGLE_BUTTON:
       return {
         ...state,
-        ToggleButtonIsOpen: !state.ToggleButtonIsOpen,
+        toggleButtonIsOpen: !state.toggleButtonIsOpen,
       };
     default:
       return state;

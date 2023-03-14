@@ -1,0 +1,14 @@
+@use 'src/styles/vars';
+
+.togglebutton{
+    display: flex ;
+    justify-content: center;
+    width: 80%;
+    padding: vars.$gutter;
+    margin-top: vars.$gutter;
+    background: none;
+    color: vars.$white;
+    border: 2px solid vars.$white;
+    border-radius: 4px;
+
+}
