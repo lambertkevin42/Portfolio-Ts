@@ -1,7 +1,9 @@
-import { TOGGLE_BUTTON } from '../actions/toggleButtonAction';
+import { TOGGLE_BUTTON_DESIGN } from '../actions/toggleDesignButtonAction';
+import { TOGGLE_BUTTON_DEV } from '../actions/toggleDevButtonAction';
 
 interface State {
-  toggleButtonIsOpen: boolean;
+  toggleButtonDesignIsOpen: boolean;
+  toggleButtonDevIsOpen: boolean;
 }
 
 interface Action {
@@ -9,15 +11,21 @@ interface Action {
 }
 
 const initialState: State = {
-  toggleButtonIsOpen: false,
+  toggleButtonDesignIsOpen: false,
+  toggleButtonDevIsOpen: false,
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
   switch (action.type) {
-    case TOGGLE_BUTTON:
+    case TOGGLE_BUTTON_DESIGN:
       return {
         ...state,
-        toggleButtonIsOpen: !state.toggleButtonIsOpen,
+        toggleButtonDesignIsOpen: !state.toggleButtonDesignIsOpen,
+      };
+    case TOGGLE_BUTTON_DEV:
+      return {
+        ...state,
+        toggleButtonDevIsOpen: !state.toggleButtonDevIsOpen,
       };
     default:
       return state;
