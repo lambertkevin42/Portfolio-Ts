@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../reducers/rootReducer';
 import './togglecard.scss';
 import ToggleButtonDesign from './ToggleButtonDesign';
+import SliderDesign from '../Sliders/SliderDesign';
 
 const ToggleCardDesign: React.FC = () => {
   const { toggleButtonDesignIsOpen } = useSelector((state: RootState) => state.button);
@@ -10,11 +11,14 @@ const ToggleCardDesign: React.FC = () => {
     <div className="togglecard">
       <ToggleButtonDesign />
       <div className={`${toggleButtonDesignIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
-        <p className="togglecard-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos illo
-          ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam molestiae error,
-          sunt ut autem atque similique hic.
-        </p>
+        <div className="togglecard-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos
+            illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam molestiae
+            error, sunt ut autem atque similique hic.
+          </p>
+          <SliderDesign />
+        </div>
       </div>
     </div>
   );
