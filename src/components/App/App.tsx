@@ -3,8 +3,7 @@ import { useLocation, Location } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MyCard from '../MyCard/MyCard';
-import ToggleCardDesign from '../ToggleCards/ToggleCardDesign';
-import ToggleCardDev from '../ToggleCards/ToggleCardDev';
+import SkillCards from '../SkillCards/SkillCards';
 import './app.scss';
 
 const App: React.FC = () => {
@@ -28,8 +27,7 @@ const App: React.FC = () => {
         text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacuns de mes projets. Espérant que votre expérience ici, sera des plus agréable, je vous laisse me découvrir."
         imgAlt="kévin lambert"
       />
-      <ToggleCardDesign />
-      <ToggleCardDev />
+      <SkillCards />
       <Footer />
     </div>
   );
