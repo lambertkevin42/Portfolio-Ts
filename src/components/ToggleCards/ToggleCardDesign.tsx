@@ -18,6 +18,14 @@ const ToggleCardDesign: React.FC = () => {
             error, sunt ut autem atque similique hic.
           </p>
           <SliderDesign />
+          <div className="list">
+            <h2 className="list-title">Les petits plus du designer</h2>
+            <ul className="list-items">
+              <li>Crayon / papier</li>
+              <li>Wireframe</li>
+              <li>Maquette</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

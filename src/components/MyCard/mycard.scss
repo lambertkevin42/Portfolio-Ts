@@ -17,6 +17,7 @@
         background-color: vars.$dark;
         padding: vars.$gutter*0.5;
         margin: vars.$gutter;
+        border: 2px solid vars.$dark;
         border-radius: 10px;
         line-height: vars.$gutter*1.5;
 
@@ -29,7 +30,13 @@
             padding: vars.$gutter*0.5;
             font-size: 0.9rem;
         }
+
+        &:hover{
+            border: 2px solid white;
+            border-radius: 5px;
+        }
     }
+
 
     &-img{
         width: 320px;

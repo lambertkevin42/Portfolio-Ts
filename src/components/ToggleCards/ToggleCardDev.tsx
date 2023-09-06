@@ -18,6 +18,15 @@ const ToggleCardDev: React.FC = () => {
             error, sunt ut autem atque similique hic.
           </p>
           <SliderDev />
+          <div className="list">
+            <h2 className="list-title">Les petits plus du dev</h2>
+            <ul className="list-items">
+              <li>Méthodes agiles</li>
+              <li>SCRUM</li>
+              <li>Git</li>
+              <li>Github</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

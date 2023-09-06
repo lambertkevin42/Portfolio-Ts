@@ -13,7 +13,7 @@
     transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
         
         &:hover {
-            box-shadow: inset 400px 0 0 0 vars.$white;
+            box-shadow: inset 4000px 0 0 0 vars.$white;
             color: vars.$dark;
         }
 }

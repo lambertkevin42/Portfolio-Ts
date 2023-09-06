@@ -1,12 +1,14 @@
 import React from 'react';
 import './slider.scss';
 import slide1 from '../../assets/images/react.png';
-import slide4 from '../../assets/images/redux.png';
-import slide2 from '../../assets/images/Js.png';
-import slide6 from '../../assets/images/html.png';
-import slide7 from '../../assets/images/css.png';
-import slide3 from '../../assets/images/axios.png';
-import slide5 from '../../assets/images/sass.png';
+import slide2 from '../../assets/images/redux.png';
+import slide3 from '../../assets/images/Js.png';
+import slide4 from '../../assets/images/css.png';
+import slide5 from '../../assets/images/html.png';
+import slide6 from '../../assets/images/php.png';
+import slide7 from '../../assets/images/sass.png';
+import slide8 from '../../assets/images/axios.png';
+import slide9 from '../../assets/images/ts.png';
 
 const SliderDev: React.FC = () => {
   return (
@@ -20,28 +22,30 @@ const SliderDev: React.FC = () => {
         </div>
         <div className="slide2">
           <div className="slide-content">
-            <h2>HTML / PHP</h2>
+            <h2>Redux</h2>
             <img className="slide-content-img" src={slide2} />
-            <img className="slide-content-img" src={slide6} />
-            <img className="slide-content-img" src={slide7} />
           </div>
         </div>
         <div className="slide3">
           <div className="slide-content">
-            <h2>Axios</h2>
+            <h2>JS / CSS / HTML / PHP / SASS</h2>
             <img className="slide-content-img" src={slide3} />
+            <img className="slide-content-img" src={slide4} />
+            <img className="slide-content-img" src={slide5} />
+            <img className="slide-content-img" src={slide6} />
+            <img className="slide-content-img" src={slide7} />
           </div>
         </div>
         <div className="slide4">
           <div className="slide-content">
-            <h2>JS</h2>
-            <img className="slide-content-img" src={slide4} />
+            <h2>AXIOS</h2>
+            <img className="slide-content-img" src={slide8} />
           </div>
         </div>
         <div className="slide5">
           <div className="slide-content">
-            <h2>SASS</h2>
-            <img className="slide-content-img" src={slide5} />
+            <h2>Typescript</h2>
+            <img className="slide-content-img" src={slide9} />
           </div>
         </div>
       </div>
