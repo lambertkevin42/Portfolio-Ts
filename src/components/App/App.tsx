@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MyCard from '../MyCard/MyCard';
 import SkillCards from '../SkillCards/SkillCards';
+import MyExperience from '../MyExperience/MyExperience';
 import './app.scss';
 
 const App: React.FC = () => {
@@ -28,6 +29,7 @@ const App: React.FC = () => {
         imgAlt="kévin lambert"
       />
       <SkillCards />
+      <MyExperience title="Experiences" />
       <Footer />
     </div>
   );
