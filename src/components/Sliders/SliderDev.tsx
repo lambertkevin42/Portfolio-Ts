@@ -17,35 +17,45 @@ const SliderDev: React.FC = () => {
         <div className="slide1">
           <div className="slide-content">
             <h2>React</h2>
-            <img className="slide-content-img" src={slide1} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide1} />
+            </div>
           </div>
         </div>
         <div className="slide2">
           <div className="slide-content">
             <h2>Redux</h2>
-            <img className="slide-content-img" src={slide2} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide2} />
+            </div>
           </div>
         </div>
         <div className="slide3">
           <div className="slide-content">
             <h2>JS / CSS / HTML / PHP / SASS</h2>
-            <img className="slide-content-img" src={slide3} />
-            <img className="slide-content-img" src={slide4} />
-            <img className="slide-content-img" src={slide5} />
-            <img className="slide-content-img" src={slide6} />
-            <img className="slide-content-img" src={slide7} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide3} />
+              <img className="slide-content-img-size" src={slide4} />
+              <img className="slide-content-img-size" src={slide5} />
+              <img className="slide-content-img-size" src={slide6} />
+              <img className="slide-content-img-size" src={slide7} />
+            </div>
           </div>
         </div>
         <div className="slide4">
           <div className="slide-content">
             <h2>AXIOS</h2>
-            <img className="slide-content-img" src={slide8} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide8} />
+            </div>
           </div>
         </div>
         <div className="slide5">
           <div className="slide-content">
             <h2>Typescript</h2>
-            <img className="slide-content-img" src={slide9} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide9} />
+            </div>
           </div>
         </div>
       </div>

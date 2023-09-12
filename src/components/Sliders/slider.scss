@@ -4,7 +4,7 @@
     width: 100vw;
     padding-bottom: 1rem;
     &-content{
-      width: calc(100vw * 5);
+      width: calc(100% * 5);
       animation: slide 15s infinite;
       display: flex;
     }
@@ -12,19 +12,19 @@
   
   
   .slide1{
-    width:100vw;
+    width:100%;
   }
   .slide2{
-    width:100vw;
+    width:100%;
   }
   .slide3{
-    width:100vw;
+    width:100%;
   }
   .slide4{
-    width:100vw;
+    width:100%;
   }
   .slide5{
-    width:100vw;
+    width:100%;
   }
   
   
@@ -39,12 +39,19 @@
     gap: 0.6rem;
     
     &-img{
-      width: 90px;
+      width: 100%;
+
+      &-size{
+        width: 90px;
+        margin: vars.$gutter*0.2;
+      }
     }
 
     h2{
       padding: vars.$gutter;
       width: 100%;
+      color: white;
+      font-size: larger;
     }
   }
 
@@ -84,4 +91,27 @@
     100%{
       transform: translateX(0);
     }
+  }
+
+
+
+  @media only screen and (min-width: 768px) {
+
+    .slide-content{
+      display: flex;
+      height: 25vh;
+      flex-wrap: wrap;
+      gap: 1rem;
+
+      &-img{
+        width: 45%;
+  
+        &-size{
+          width: 90px;
+          margin: vars.$gutter*0.2;
+        }
+      }
+
+    }
+
   }

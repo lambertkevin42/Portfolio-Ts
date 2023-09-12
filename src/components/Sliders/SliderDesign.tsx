@@ -13,31 +13,41 @@ const SliderDesign: React.FC = () => {
         <div className="slide1">
           <div className="slide-content">
             <h2>InDesign</h2>
-            <img className="slide-content-img" src={slide1} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide1} />
+            </div>
           </div>
         </div>
         <div className="slide2">
           <div className="slide-content">
             <h2>PhotoShop</h2>
-            <img className="slide-content-img" src={slide2} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide2} />
+            </div>
           </div>
         </div>
         <div className="slide3">
           <div className="slide-content">
             <h2>Illustrator</h2>
-            <img className="slide-content-img" src={slide3} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide3} />
+            </div>
           </div>
         </div>
         <div className="slide4">
           <div className="slide-content">
             <h2>Adobe XD</h2>
-            <img className="slide-content-img" src={slide4} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide4} />
+            </div>
           </div>
         </div>
         <div className="slide5">
           <div className="slide-content">
             <h2>Première Pro</h2>
-            <img className="slide-content-img" src={slide5} />
+            <div className="slide-content-img">
+              <img className="slide-content-img-size" src={slide5} />
+            </div>
           </div>
         </div>
       </div>
