@@ -6,8 +6,11 @@
   src: url('../assets/fonts/Jost-VariableFont_wght.ttf');
 }
 
+
 body {
   font-family: 'Jost', sans-serif;
   background-color: vars.$black;
   color: vars.$white;
+  cursor: crosshair;
+  
 }

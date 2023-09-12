@@ -17,7 +17,7 @@ const ToggleButtonDesign: React.FC = () => {
       className={`${toggleButtonDesignIsOpen ? 'togglebutton' : 'togglebutton'}`}
       onClick={handleClick}
     >
-      Design
+      Designer
     </button>
   );
 };
