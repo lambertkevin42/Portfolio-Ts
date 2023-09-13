@@ -6,6 +6,7 @@
     display: flex;
     width: 100%;
     padding: vars.$gutter;
+    margin-top: vars.$gutter*10;
     justify-content: center;
     align-items:center;
 
@@ -18,3 +19,4 @@
     }
 
 }
+

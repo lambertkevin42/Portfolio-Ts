@@ -6,8 +6,7 @@
     align-items: center;
 
     &-title{
-        font-size: 50px;
-        
+        font-size: 50px;     
         padding: vars.$gutter*0.6;
         margin-left: vars.$gutter;
     }
@@ -51,15 +50,16 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
 
         &-infos{
-            width: 50%;
+            width: 40%;
         }
     
         &-title{
             width: 100%;
-            margin-left: vars.$gutter*1.5;
+            margin-left: vars.$gutter*3;
         }
         &-img{
             width: 40%;    

@@ -6,6 +6,9 @@ import '../SkillCards/skillcard.scss';
 const SkillCards: React.FC = () => {
   return (
     <div className="skillcards">
+      <div className="skillcards-title">
+        <h2>Mes Skills</h2>
+      </div>
       <div className="skillcards-element">
         <ToggleCardDesign />
       </div>
