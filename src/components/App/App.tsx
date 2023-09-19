@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import MyCard from '../MyCard/MyCard';
 import SkillCards from '../SkillCards/SkillCards';
 import MyExperience from '../MyExperience/MyExperience';
+import Project from '../Project/Project';
 import './app.scss';
 
 const App: React.FC = () => {
@@ -30,6 +31,7 @@ const App: React.FC = () => {
       />
       <SkillCards />
       <MyExperience title="Experiences" />
+      <Project title="Projets" />
       <Footer />
     </div>
   );
