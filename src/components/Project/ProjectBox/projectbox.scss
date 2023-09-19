@@ -1,0 +1,30 @@
+@use 'src/styles/vars';
+
+.projectbox {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: vars.$dark;
+    border: 2px solid vars.$dark;
+    border-radius: 10px;
+    gap: vars.$gutter;
+    text-align: center;
+    padding: vars.$gutter;
+
+    &-title{
+        width:70%;
+        
+    }
+    &-techo{
+        width:70%;
+        text-transform:uppercase;
+    }
+    &-intro{
+        width: 85%;
+        line-height: vars.$gutter*1.3;
+    }
+
+}
