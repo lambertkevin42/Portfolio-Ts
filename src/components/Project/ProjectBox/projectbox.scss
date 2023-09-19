@@ -2,7 +2,7 @@
 
 .projectbox {
     display: flex;
-    width: 85%;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -18,9 +18,20 @@
         width:70%;
         
     }
-    &-techo{
-        width:70%;
-        text-transform:uppercase;
+    &-techno{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: vars.$gutter*0.3;
+        
+    }
+    &-techno-simple{
+        padding: vars.$gutter*0.3;
+        width: fit-content;
+        border-radius: 5px;
+        background-color: white;
+        color: vars.$dark;
     }
     &-intro{
         width: 85%;
