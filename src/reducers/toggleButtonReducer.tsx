@@ -1,9 +1,11 @@
 import { TOGGLE_BUTTON_DESIGN } from '../actions/toggleDesignButtonAction';
 import { TOGGLE_BUTTON_DEV } from '../actions/toggleDevButtonAction';
+import { TOGGLE_BUTTON_PROJECT } from '../actions/toggleProjectButtonAction';
 
 interface State {
   toggleButtonDesignIsOpen: boolean;
   toggleButtonDevIsOpen: boolean;
+  toggleButtonProjectIsOpen: boolean;
 }
 
 interface Action {
@@ -13,6 +15,7 @@ interface Action {
 const initialState: State = {
   toggleButtonDesignIsOpen: false,
   toggleButtonDevIsOpen: false,
+  toggleButtonProjectIsOpen: false,
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
@@ -26,6 +29,11 @@ function reducer(state: State = initialState, action: Action = { type: '' }): St
       return {
         ...state,
         toggleButtonDevIsOpen: !state.toggleButtonDevIsOpen,
+      };
+    case TOGGLE_BUTTON_PROJECT:
+      return {
+        ...state,
+        toggleButtonProjectIsOpen: !state.toggleButtonProjectIsOpen,
       };
     default:
       return state;
