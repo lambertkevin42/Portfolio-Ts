@@ -1,6 +1,6 @@
 import React from 'react';
 import '../ProjectBox/projectbox.scss';
-import ToggleCardProjectAriane from './ToggleCards/ToggleCardProjectAriane';
+import ToggleCardProjectAriane from './ToggleCardsProject/ToggleCardProjectAriane';
 
 interface ProjectBoxProps {
   title: string;

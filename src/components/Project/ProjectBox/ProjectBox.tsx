@@ -1,6 +1,6 @@
 import React from 'react';
 import '../ProjectBox/projectbox.scss';
-import ToggleCardProjectScotch from './ToggleCards/ToggleCardProjectScotch';
+import ToggleCardProjectScotch from './ToggleCardsProject/ToggleCardProjectScotch';
 
 interface ProjectBoxProps {
   title: string;
