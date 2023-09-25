@@ -17,7 +17,7 @@ const ButtonToggleProjectAriane: React.FC = () => {
       className={`${toggleButtonProjectArianeIsOpen ? 'togglebutton' : 'togglebutton'}`}
       onClick={handleClick}
     >
-      Voir plus
+      {toggleButtonProjectArianeIsOpen ? 'Moins' : 'Voir plus'}
     </button>
   );
 };

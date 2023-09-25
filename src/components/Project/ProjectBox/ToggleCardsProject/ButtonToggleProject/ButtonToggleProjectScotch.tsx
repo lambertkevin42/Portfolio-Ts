@@ -17,7 +17,7 @@ const ButtonToggleProjectScotch: React.FC = () => {
       className={`${toggleButtonProjectScotchIsOpen ? 'togglebutton' : 'togglebutton'}`}
       onClick={handleClick}
     >
-      Voir plus
+      {toggleButtonProjectScotchIsOpen ? 'Moins' : 'Voir plus'}
     </button>
   );
 };
