@@ -4,11 +4,12 @@ import '../MyExperience/myexperience.scss';
 
 interface MyExperienceProps {
   title: string;
+  id: string;
 }
 
-const MyExperience: React.FC<MyExperienceProps> = ({ title }) => {
+const MyExperience: React.FC<MyExperienceProps> = ({ title, id }) => {
   return (
-    <div className="myexperience">
+    <div className="myexperience" id={id}>
       <h2 className="myexperience-title">{title}</h2>
       <MyExperienceBox
         date="juin-novembre 2022"

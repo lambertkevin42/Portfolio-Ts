@@ -5,11 +5,12 @@ import '../Project/project.scss';
 
 interface ProjectProps {
   title: string;
+  id: string;
 }
 
-const Project: React.FC<ProjectProps> = ({ title }) => {
+const Project: React.FC<ProjectProps> = ({ title, id }) => {
   return (
-    <div className="project">
+    <div className="project" id={id}>
       <h2 className="project-title">{title}</h2>
       <ProjectBox
         title="Scotch Art"

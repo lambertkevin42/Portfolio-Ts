@@ -8,7 +8,6 @@ const ToggleCardProjectAriane: React.FC = () => {
   const { toggleButtonProjectArianeIsOpen } = useSelector((state: RootState) => state.button);
   return (
     <div className="togglecard">
-      <ButtonToggleProjectAriane />
       <div className={`${toggleButtonProjectArianeIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
           <p>
@@ -33,6 +32,7 @@ const ToggleCardProjectAriane: React.FC = () => {
           </p>
         </div>
       </div>
+      <ButtonToggleProjectAriane />
     </div>
   );
 };

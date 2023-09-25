@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useLocation, Location } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MyCard from '../MyCard/MyCard';
@@ -9,7 +9,7 @@ import Project from '../Project/Project';
 import './app.scss';
 
 const App: React.FC = () => {
-  const location: Location = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
     window.scrollTo({
@@ -26,12 +26,12 @@ const App: React.FC = () => {
         title="Bienvenue."
         textUp="Je m'appelle Kévin Lambert, je suis développeur Frontend."
         text1="Originaire de Saint-Etienne, je suis heureux de vous présenter mon portfolio."
-        text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacuns de mes projets. Espérant que votre expérience ici, sera des plus agréable, je vous laisse me découvrir."
+        text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacun de mes projets. Espérant que votre expérience ici, sera des plus agréables, je vous laisse me découvrir."
         imgAlt="kévin lambert"
       />
-      <SkillCards />
-      <MyExperience title="Experiences" />
-      <Project title="Projets" />
+      <SkillCards id="SkillCards" />
+      <MyExperience id="MyExperiences" title="Mes Experiences" />
+      <Project id="Projects" title="Mes Projets" />
       <Footer />
     </div>
   );

@@ -3,9 +3,13 @@ import ToggleCardDesign from '../ToggleCards/ToggleCardDesign';
 import ToggleCardDev from '../ToggleCards/ToggleCardDev';
 import '../SkillCards/skillcard.scss';
 
-const SkillCards: React.FC = () => {
+interface SkillCardsProps {
+  id: string;
+}
+
+const SkillCards: React.FC<SkillCardsProps> = ({ id }) => {
   return (
-    <div className="skillcards">
+    <div className="skillcards" id={id}>
       <div className="skillcards-title">
         <h2>Mes Skills</h2>
       </div>

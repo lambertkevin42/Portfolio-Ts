@@ -8,7 +8,6 @@ const ToggleCardProjectScotch: React.FC = () => {
   const { toggleButtonProjectScotchIsOpen } = useSelector((state: RootState) => state.button);
   return (
     <div className="togglecard">
-      <ButtonToggleProjectScotch />
       <div className={`${toggleButtonProjectScotchIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
           <p>
@@ -18,6 +17,7 @@ const ToggleCardProjectScotch: React.FC = () => {
           </p>
         </div>
       </div>
+      <ButtonToggleProjectScotch />
     </div>
   );
 };

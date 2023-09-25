@@ -1,5 +1,6 @@
+import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+
 import { toggleBurger } from '../../actions/burgerActions';
 import { RootState } from '../../reducers/rootReducer';
 import '../HeaderNav/headernav.scss';
@@ -13,22 +14,34 @@ interface HeaderNavProps {
 const HeaderNav: React.FC<HeaderNavProps> = ({ link1, link2, link3 }) => {
   const dispatch = useDispatch();
   const { burgerIsOpen } = useSelector((state: RootState) => state.burger);
+  const navRef = useRef(null);
+
   const handleClick = () => {
     dispatch(toggleBurger());
   };
 
+  const scrollToComponent = (componentId: string) => {
+    const component = document.getElementById(componentId);
+    if (component) {
+      window.scrollTo({
+        top: component.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
-    <nav className="header-nav">
+    <nav className="header-nav" ref={navRef}>
       <ul className={`${burgerIsOpen ? 'header-nav-links' : 'header-nav-links--closed'}`}>
-        <NavLink className="header-nav-link" to="">
+        <li className="header-nav-link" onClick={() => scrollToComponent('SkillCards')}>
           {link1}
-        </NavLink>
-        <NavLink className="header-nav-link" to="">
+        </li>
+        <li className="header-nav-link" onClick={() => scrollToComponent('MyExperiences')}>
           {link2}
-        </NavLink>
-        <NavLink className="header-nav-link" to="">
+        </li>
+        <li className="header-nav-link" onClick={() => scrollToComponent('Projects')}>
           {link3}
-        </NavLink>
+        </li>
       </ul>
       <button
         aria-label="toggleBurger"

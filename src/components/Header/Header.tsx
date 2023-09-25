@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <p className="header-text">
         <strong>KL</strong>
       </p>
-      <HeaderNav link1="about" link2="about" link3="about" />
+      <HeaderNav link1="Mes Skills" link2="Mes Expériences" link3="Mes Projets" />
     </div>
   );
 };
