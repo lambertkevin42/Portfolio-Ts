@@ -1,11 +1,13 @@
 import { TOGGLE_BUTTON_DESIGN } from '../actions/toggleDesignButtonAction';
 import { TOGGLE_BUTTON_DEV } from '../actions/toggleDevButtonAction';
-import { TOGGLE_BUTTON_PROJECT } from '../actions/toggleProjectButtonAction';
+import { TOGGLE_BUTTON_PROJECT_ARIANE } from '../actions/toggleProjectArianeButtonAction';
+import { TOGGLE_BUTTON_PROJECT_SCOTCH } from '../actions/toggleProjectScotchButtonAction';
 
 interface State {
   toggleButtonDesignIsOpen: boolean;
   toggleButtonDevIsOpen: boolean;
-  toggleButtonProjectIsOpen: boolean;
+  toggleButtonProjectArianeIsOpen: boolean;
+  toggleButtonProjectScotchIsOpen: boolean;
 }
 
 interface Action {
@@ -15,7 +17,8 @@ interface Action {
 const initialState: State = {
   toggleButtonDesignIsOpen: false,
   toggleButtonDevIsOpen: false,
-  toggleButtonProjectIsOpen: false,
+  toggleButtonProjectArianeIsOpen: false,
+  toggleButtonProjectScotchIsOpen: false,
 };
 
 function reducer(state: State = initialState, action: Action = { type: '' }): State {
@@ -30,10 +33,15 @@ function reducer(state: State = initialState, action: Action = { type: '' }): St
         ...state,
         toggleButtonDevIsOpen: !state.toggleButtonDevIsOpen,
       };
-    case TOGGLE_BUTTON_PROJECT:
+    case TOGGLE_BUTTON_PROJECT_ARIANE:
       return {
         ...state,
-        toggleButtonProjectIsOpen: !state.toggleButtonProjectIsOpen,
+        toggleButtonProjectArianeIsOpen: !state.toggleButtonProjectArianeIsOpen,
+      };
+    case TOGGLE_BUTTON_PROJECT_SCOTCH:
+      return {
+        ...state,
+        toggleButtonProjectScotchIsOpen: !state.toggleButtonProjectScotchIsOpen,
       };
     default:
       return state;

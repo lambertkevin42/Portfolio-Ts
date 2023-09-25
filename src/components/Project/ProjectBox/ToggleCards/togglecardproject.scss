@@ -1,0 +1,36 @@
+@use 'src/styles/vars';
+
+.togglecard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    &-content{
+        overflow: hidden;
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: vars.$gutter;
+        text-align: center;   
+    }
+}
+
+
+.togglecard-closed{
+    display: none;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .togglecard{
+        display: flex;
+        flex-direction: column;
+        
+       
+    
+    }
+}

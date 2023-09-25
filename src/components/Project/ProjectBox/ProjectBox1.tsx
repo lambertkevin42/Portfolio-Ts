@@ -1,6 +1,6 @@
 import React from 'react';
 import '../ProjectBox/projectbox.scss';
-import ToggleCardProjectScotch from './ToggleCards/ToggleCardProjectScotch';
+import ToggleCardProjectAriane from './ToggleCards/ToggleCardProjectAriane';
 
 interface ProjectBoxProps {
   title: string;
@@ -13,7 +13,7 @@ interface ProjectBoxProps {
   intro: string;
 }
 
-const ProjectBox: React.FC<ProjectBoxProps> = ({
+const ProjectBox1: React.FC<ProjectBoxProps> = ({
   title,
   techno,
   techno1,
@@ -35,9 +35,9 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         {techno5 ? <div className="projectbox-techno-simple">{techno5}</div> : null}
       </div>
       <p className="projectbox- intro">{intro}</p>
-      <ToggleCardProjectScotch />
+      <ToggleCardProjectAriane />
     </div>
   );
 };
 
-export default ProjectBox;
+export default ProjectBox1;

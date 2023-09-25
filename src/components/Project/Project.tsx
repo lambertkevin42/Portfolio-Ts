@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectBox from './ProjectBox/ProjectBox';
+import ProjectBox1 from './ProjectBox/ProjectBox1';
 import '../Project/project.scss';
 
 interface ProjectProps {
@@ -16,7 +17,7 @@ const Project: React.FC<ProjectProps> = ({ title }) => {
         techno1="React"
         intro="Bonjour ceci est un projet perso"
       />
-      <ProjectBox
+      <ProjectBox1
         title="Scotch Art"
         techno="React"
         techno1="React"
