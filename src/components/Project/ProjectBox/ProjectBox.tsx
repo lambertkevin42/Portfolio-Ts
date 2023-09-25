@@ -1,5 +1,6 @@
 import React from 'react';
 import '../ProjectBox/projectbox.scss';
+import ButtonToggleProject from './ToggleCards/ButtonToggleProject/ButtonToggleProject';
 
 interface ProjectBoxProps {
   title: string;
@@ -34,6 +35,7 @@ const ProjectBox: React.FC<ProjectBoxProps> = ({
         {techno5 ? <div className="projectbox-techno-simple">{techno5}</div> : null}
       </div>
       <p className="projectbox- intro">{intro}</p>
+      <ButtonToggleProject />
     </div>
   );
 };
