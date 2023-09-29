@@ -37,7 +37,8 @@
     .myexperiencebox{
         flex-direction: row;
         width: 40%;
-        height: 35%;
+        min-height: 350px;
+        height: max-content;
 
     }
 

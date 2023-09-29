@@ -1,12 +1,10 @@
 @use 'src/styles/vars';
 
 .footer{
-    position: relative;
-    bottom: 0;
     display: flex;
     width: 100%;
     padding: vars.$gutter;
-    margin-top: vars.$gutter*10;
+    margin-top: vars.$gutter;
     justify-content: center;
     align-items:center;
 
