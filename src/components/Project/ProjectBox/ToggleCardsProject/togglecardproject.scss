@@ -1,6 +1,6 @@
 @use 'src/styles/vars';
 
-.togglecard{
+.togglecardproject{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -37,16 +37,17 @@
 }
 
 
-.togglecard-closed{
+.togglecardproject-closed{
     display: none;
 
 }
 
 @media only screen and (min-width: 768px) {
 
-    .togglecard{
+    .togglecardproject{
         display: flex;
         flex-direction: column;
+        min-height:1340px;
         &-content{
             width: 100%;
 

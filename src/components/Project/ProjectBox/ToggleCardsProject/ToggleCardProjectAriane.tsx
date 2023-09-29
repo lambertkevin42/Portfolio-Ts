@@ -20,27 +20,31 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
 }) => {
   const { toggleButtonProjectArianeIsOpen } = useSelector((state: RootState) => state.button);
   return (
-    <div className="togglecard">
-      <div className={`${toggleButtonProjectArianeIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
-        <div className="togglecard-content">
-          <div className="togglecard-content-images">
-            <div className="togglecard-content-images-container">
+    <div className="togglecardproject">
+      <div
+        className={`${
+          toggleButtonProjectArianeIsOpen ? 'togglecardproject' : 'togglecardproject-closed'
+        }`}
+      >
+        <div className="togglecardproject-content">
+          <div className="togglecardproject-content-images">
+            <div className="togglecardproject-content-images-container">
               <img
-                className="togglecard-content-images-element"
+                className="togglecardproject-content-images-element"
                 src={arianescreen1}
                 alt={imgAlt1}
               />
             </div>
-            <div className="togglecard-content-images-container">
+            <div className="togglecardproject-content-images-container">
               <img
-                className="togglecard-content-images-element"
+                className="togglecardproject-content-images-element"
                 src={arianescreen2}
                 alt={imgAlt2}
               />
             </div>
-            <div className="togglecard-content-images-container">
+            <div className="togglecardproject-content-images-container">
               <img
-                className="togglecard-content-images-element"
+                className="togglecardproject-content-images-element"
                 src={arianescreen3}
                 alt={imgAlt3}
               />
