@@ -3,13 +3,43 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../../../reducers/rootReducer';
 import ButtonToggleProjectScotch from './ButtonToggleProject/ButtonToggleProjectScotch';
 import './togglecardproject.scss';
+import scotchartscreen1 from '../../../../assets/images/screen.png';
+import scotchartscreen2 from '../../../../assets/images/screen1.png';
+import scotchartscreen3 from '../../../../assets/images/screen2.png';
 
-const ToggleCardProjectScotch: React.FC = () => {
+interface CardProjectScotchProps {
+  imgAlt1: string;
+  imgAlt2: string;
+  imgAlt3: string;
+}
+
+const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
+  imgAlt1,
+  imgAlt2,
+  imgAlt3,
+}) => {
   const { toggleButtonProjectScotchIsOpen } = useSelector((state: RootState) => state.button);
   return (
     <div className="togglecard">
       <div className={`${toggleButtonProjectScotchIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
+          <div className="togglecard-content-images">
+            <img
+              className="togglecard-content-images-element"
+              src={scotchartscreen1}
+              alt={imgAlt1}
+            />
+            <img
+              className="togglecard-content-images-element"
+              src={scotchartscreen2}
+              alt={imgAlt2}
+            />
+            <img
+              className="togglecard-content-images-element"
+              src={scotchartscreen3}
+              alt={imgAlt3}
+            />
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos
             illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam molestiae
