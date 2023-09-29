@@ -35,7 +35,7 @@ const ProjectBox1: React.FC<ProjectBoxProps> = ({
         {techno5 ? <div className="projectbox-techno-simple">{techno5}</div> : null}
       </div>
       <p className="projectbox- intro">{intro}</p>
-      <ToggleCardProjectAriane />
+      <ToggleCardProjectAriane imgAlt1="" imgAlt2="" imgAlt3="" />
     </div>
   );
 };

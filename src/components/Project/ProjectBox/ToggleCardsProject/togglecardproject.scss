@@ -21,9 +21,7 @@
             flex-direction: column;
             gap: vars.$gutter;
             width: 100%;
-            &-element{
-                border: 1px solid white; 
-            }
+        
         }
     }
 }
