@@ -21,7 +21,13 @@
             flex-direction: column;
             gap: vars.$gutter;
             width: 100%;
-        
+            &-container{
+                width: 100%;
+                gap: vars.$gutter;
+            }
+            &-element{
+                width: 100%;
+            }
         }
     }
 }
@@ -37,8 +43,20 @@
     .togglecard{
         display: flex;
         flex-direction: column;
-        
-       
-    
+        &-content{
+            width: 100%;
+            &-images{
+                align-items: center;
+                &-container{
+                    overflow: hidden;
+                    width: 60%;
+                    max-height: 700px;
+                    gap: vars.$gutter;
+                }
+                &-element{
+                    width: 100%;
+                }
+            }
+        }
     }
 }

@@ -150,7 +150,7 @@ a {
 
 label,
 button {
-  cursor: crosshair;
+  cursor:default;
 }
 
 input,

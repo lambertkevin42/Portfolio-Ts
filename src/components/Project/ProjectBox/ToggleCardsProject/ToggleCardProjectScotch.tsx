@@ -24,21 +24,27 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
       <div className={`${toggleButtonProjectScotchIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
           <div className="togglecard-content-images">
-            <img
-              className="togglecard-content-images-element"
-              src={scotchartscreen1}
-              alt={imgAlt1}
-            />
-            <img
-              className="togglecard-content-images-element"
-              src={scotchartscreen2}
-              alt={imgAlt2}
-            />
-            <img
-              className="togglecard-content-images-element"
-              src={scotchartscreen3}
-              alt={imgAlt3}
-            />
+            <div className="togglecard-content-images-container">
+              <img
+                className="togglecard-content-images-element"
+                src={scotchartscreen1}
+                alt={imgAlt1}
+              />
+            </div>
+            <div className="togglecard-content-images-container">
+              <img
+                className="togglecard-content-images-element"
+                src={scotchartscreen2}
+                alt={imgAlt2}
+              />
+            </div>
+            <div className="togglecard-content-images-container">
+              <img
+                className="togglecard-content-images-element"
+                src={scotchartscreen3}
+                alt={imgAlt3}
+              />
+            </div>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos
