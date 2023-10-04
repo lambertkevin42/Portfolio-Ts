@@ -13,13 +13,6 @@ const Project: React.FC<ProjectProps> = ({ title, id }) => {
   return (
     <div className="project" id={id}>
       <h2 className="project-title">{title}</h2>
-      <ProjectBox
-        title="Scotch Art"
-        techno="React"
-        techno1="Redux"
-        techno2="SCSS"
-        intro="Bonjour ceci est un projet perso"
-      />
       <ProjectBox1
         title="Ariane"
         techno="React"
@@ -30,8 +23,15 @@ const Project: React.FC<ProjectProps> = ({ title, id }) => {
         techno5="MySQL"
         intro="Bonjour ceci est un projet perso"
       />
+      <ProjectBox
+        title="Scotch Art"
+        techno="React"
+        techno1="Redux"
+        techno2="SCSS"
+        intro="Bonjour ceci est un projet perso"
+      />
       <ProjectBox2
-        title="Ariane"
+        title="Portfolio"
         techno="React"
         techno1="Redux"
         techno2="SCSS"

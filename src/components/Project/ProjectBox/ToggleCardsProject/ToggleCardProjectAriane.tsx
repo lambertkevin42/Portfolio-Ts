@@ -58,17 +58,7 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
             quasi numquam! Asperiores laboriosam molestiae error, sunt ut autem atque similique
             hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum
             eos illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam
-            molestiae error, sunt ut autem atque similique hic.Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Impedit nesciunt nostrum eos illo ea dolore obcaecati
-            sapiente sint quasi numquam! Asperiores laboriosam molestiae error, sunt ut autem atque
-            similique hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt
-            nostrum eos illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam
-            molestiae error, sunt ut autem atque similique hic.Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Impedit nesciunt nostrum eos illo ea dolore obcaecati
-            sapiente sint quasi numquam! Asperiores laboriosam molestiae error, sunt ut autem atque
-            similique hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt
-            nostrum eos illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam
-            molestiae error, sunt ut autem atque similique hic.
+            molestiae error, sunt ut autem atque similique hic.Lorem ipsum dolor sit
           </p>
         </div>
       </div>
