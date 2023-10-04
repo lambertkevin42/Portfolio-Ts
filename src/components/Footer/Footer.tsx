@@ -1,7 +1,7 @@
 import './footer.scss';
-import insta from '../../assets/images/insta.png';
-import linkedin from '../../assets/images/linkedin.png';
-import github from '../../assets/images/github.png';
+import insta from '../../assets/images/insta.webp';
+import linkedin from '../../assets/images/linkedin.webp';
+import github from '../../assets/images/github.webp';
 
 const Footer: React.FC = () => {
   return (

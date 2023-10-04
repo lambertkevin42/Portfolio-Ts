@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../../../reducers/rootReducer';
 import ButtonToggleProjectAriane from './ButtonToggleProject/ButtonToggleProjectAriane';
 import './togglecardproject.scss';
-import arianescreen1 from '../../../../assets/images/montage.png';
-import arianescreen2 from '../../../../assets/images/screenariane.png';
-import arianescreen3 from '../../../../assets/images/screenariane2.png';
+import arianescreen1 from '../../../../assets/images/montage.webp';
+import arianescreen2 from '../../../../assets/images/screenariane.webp';
+import arianescreen3 from '../../../../assets/images/screenariane2.webp';
 
 interface CardProjectArianeProps {
   imgAlt1: string;

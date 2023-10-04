@@ -1,14 +1,14 @@
 import React from 'react';
 import './slider.scss';
-import slide1 from '../../assets/images/react.png';
-import slide2 from '../../assets/images/redux.png';
-import slide3 from '../../assets/images/Js.png';
-import slide4 from '../../assets/images/css.png';
-import slide5 from '../../assets/images/html.png';
-import slide6 from '../../assets/images/php.png';
-import slide7 from '../../assets/images/sass.png';
-import slide8 from '../../assets/images/axios.png';
-import slide9 from '../../assets/images/ts.png';
+import slide1 from '../../assets/images/react.webp';
+import slide2 from '../../assets/images/redux.webp';
+import slide3 from '../../assets/images/js.webp';
+import slide4 from '../../assets/images/css.webp';
+import slide5 from '../../assets/images/html.webp';
+import slide6 from '../../assets/images/php.webp';
+import slide7 from '../../assets/images/sass.webp';
+import slide8 from '../../assets/images/axios.webp';
+import slide9 from '../../assets/images/ts.webp';
 
 const SliderDev: React.FC = () => {
   return (

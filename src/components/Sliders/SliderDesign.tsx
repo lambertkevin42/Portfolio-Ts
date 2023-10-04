@@ -1,10 +1,10 @@
 import React from 'react';
 import './slider.scss';
-import slide1 from '../../assets/images/id.png';
-import slide2 from '../../assets/images/ps.png';
-import slide3 from '../../assets/images/illustrator.png';
-import slide4 from '../../assets/images/xd.png';
-import slide5 from '../../assets/images/premiere.png';
+import slide1 from '../../assets/images/id.webp';
+import slide2 from '../../assets/images/ps.webp';
+import slide3 from '../../assets/images/illustrator.webp';
+import slide4 from '../../assets/images/xd.webp';
+import slide5 from '../../assets/images/premiere.webp';
 
 const SliderDesign: React.FC = () => {
   return (

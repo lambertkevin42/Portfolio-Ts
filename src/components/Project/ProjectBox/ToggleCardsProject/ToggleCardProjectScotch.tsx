@@ -3,9 +3,9 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../../../reducers/rootReducer';
 import ButtonToggleProjectScotch from './ButtonToggleProject/ButtonToggleProjectScotch';
 import './togglecardproject.scss';
-import scotchartscreen1 from '../../../../assets/images/screen.png';
-import scotchartscreen2 from '../../../../assets/images/screen1.png';
-import scotchartscreen3 from '../../../../assets/images/screen2.png';
+import scotchartscreen1 from '../../../../assets/images/screen.webp';
+import scotchartscreen2 from '../../../../assets/images/screen1.webp';
+import scotchartscreen3 from '../../../../assets/images/screen2.webp';
 
 interface CardProjectScotchProps {
   imgAlt1: string;
