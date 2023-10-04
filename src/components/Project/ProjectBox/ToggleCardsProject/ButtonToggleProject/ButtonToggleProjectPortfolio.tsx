@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleButtonProjectPortfolio } from '../../../../../actions/toggleProjectArianeButtonAction';
+import { toggleButtonProjectPortfolio } from '../../../../../actions/toggleProjectPortfolioButtonAction';
 import { RootState } from '../../../../../reducers/rootReducer';
 import './buttontoggleproject.scss';
 
