@@ -12,7 +12,6 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         text-align: center;
         gap: vars.$gutter; 
         
@@ -39,7 +38,7 @@
 
 .togglecardproject-closed{
     display: none;
-
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -47,10 +46,9 @@
     .togglecardproject{
         display: flex;
         flex-direction: column;
-        min-height:1340px;
         &-content{
             width: 100%;
-
+            min-height: 1300px;
             p{
                 width: 80%;
             }
@@ -69,4 +67,5 @@
             }
         }
     }
+
 }
