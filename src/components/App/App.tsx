@@ -41,7 +41,7 @@ const App: React.FC = () => {
         titlemail="Par mail"
         titlephone="Par téléphone"
         text1="pro.kevin.lambert@gmail.com"
-        text2="0648368632"
+        text2="06 48 36 86 32"
         imgAlt="mail"
         imgAlt1="phone"
       />
