@@ -6,6 +6,7 @@ import MyCard from '../MyCard/MyCard';
 import SkillCards from '../SkillCards/SkillCards';
 import MyExperience from '../MyExperience/MyExperience';
 import Project from '../Project/Project';
+import Contact from '../Contact/Contact';
 import './app.scss';
 
 const App: React.FC = () => {
@@ -32,6 +33,15 @@ const App: React.FC = () => {
       <SkillCards id="SkillCards" />
       <MyExperience id="MyExperiences" title="Mes Experiences" />
       <Project id="Projects" title="Mes Projets" />
+      <Contact
+        title="Me contacter"
+        titlemail="Par mail"
+        titlephone="Par téléphone"
+        text1="pro.kevin.lambert@gmail.com"
+        text2="0648368632"
+        imgAlt="mail"
+        imgAlt1="phone"
+      />
       <Footer />
     </div>
   );
