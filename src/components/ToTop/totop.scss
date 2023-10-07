@@ -1,0 +1,33 @@
+@use  'src/styles/vars.scss';
+
+.totop {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+
+  &-content {
+    padding: vars.$gutter;
+    border-radius: 50px;
+    background-color: rgba(199, 207, 228, 0.3);
+    color: vars.$dark;
+    font-size: 2vh;
+    font-weight: bold;
+    border: 2px solid vars.$dark;
+  }
+}
+
+
+
+@media (min-width:768px) {
+  .totop {
+    width: 7%;
+    right: 0;
+
+    &-content {
+      padding: vars.$gutter;
+    }
+  }
+}

@@ -8,6 +8,7 @@ import MyExperience from '../MyExperience/MyExperience';
 import Project from '../Project/Project';
 import Contact from '../Contact/Contact';
 import './app.scss';
+import ToTop from '../ToTop/ToTop';
 
 const App: React.FC = () => {
   const location = useLocation();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <Header />
+      <ToTop />
       <MyCard
         title="Bienvenue."
         textUp="Je m'appelle Kévin Lambert, je suis développeur Frontend."
