@@ -27,12 +27,12 @@ const Contact: React.FC<ContactProps> = ({
       <h2 className="contact-title">{title}</h2>
       <div className="contact-mail">
         <h3 className="contact-mail-title">{titlemail}</h3>
-        <img className="Contact-mail-img" src={mail} alt={imgAlt} />
+        <img className="contact-mail-img" src={mail} alt={imgAlt} />
         <p className="contact-mail-text">{text1}</p>
       </div>
       <div className="contact-phone">
         <h3 className="contact-phone-title">{titlephone}</h3>
-        <img className="Contact-phone-img" src={phone} alt={imgAlt1} />
+        <img className="contact-phone-img" src={phone} alt={imgAlt1} />
         <p className="contact-phone-text">{text2}</p>
       </div>
     </div>
