@@ -7,23 +7,52 @@
     justify-content: center;
     align-self: center;
     width: 90%;
-    padding: vars.$gutter;
+    margin: vars.$gutter;
+    padding-top: vars.$gutter*2;
     gap: vars.$gutter;
-    background-color: vars.$dark;
-    border: 2px solid vars.$dark;
-    border-radius: 10px;
+
+    &-title{
+        font-size: 2rem;     
+        padding: vars.$gutter*0.6;
+        margin-left: vars.$gutter;
+    }
+    
 
     &-mail{
         display: flex;
-        width: 80%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         gap: vars.$gutter;
+        padding: vars.$gutter*2;
+        background-color: vars.$dark;
+        border: 2px solid vars.$dark;
+        border-radius: 10px;
         &-img{
             width: 50px;
-            background-color: white;
         }
         &-title{
+            font-size: 1.5rem;
+            color: white;
+        }
+
+    }
+
+    &-phone{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: vars.$gutter;
+        padding: vars.$gutter*2;
+        background-color: vars.$dark;
+        border: 2px solid vars.$dark;
+        border-radius: 10px;
+        &-img{
+            width: 50px;
+        }
+        &-title{
+            font-size: 1.5rem;
             color: white;
         }
 

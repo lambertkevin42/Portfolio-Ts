@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-
 import { toggleBurger } from '../../actions/burgerActions';
 import { RootState } from '../../reducers/rootReducer';
 import '../HeaderNav/headernav.scss';
@@ -9,9 +8,10 @@ interface HeaderNavProps {
   link1: string;
   link2: string;
   link3: string;
+  link4: string;
 }
 
-const HeaderNav: React.FC<HeaderNavProps> = ({ link1, link2, link3 }) => {
+const HeaderNav: React.FC<HeaderNavProps> = ({ link1, link2, link3, link4 }) => {
   const dispatch = useDispatch();
   const { burgerIsOpen } = useSelector((state: RootState) => state.burger);
   const navRef = useRef(null);
@@ -41,6 +41,9 @@ const HeaderNav: React.FC<HeaderNavProps> = ({ link1, link2, link3 }) => {
         </li>
         <li className="header-nav-link" onClick={() => scrollToComponent('Projects')}>
           {link3}
+        </li>
+        <li className="header-nav-link" onClick={() => scrollToComponent('Contact')}>
+          {link4}
         </li>
       </ul>
       <button

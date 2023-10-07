@@ -34,6 +34,7 @@ const App: React.FC = () => {
       <MyExperience id="MyExperiences" title="Mes Experiences" />
       <Project id="Projects" title="Mes Projets" />
       <Contact
+        id="Contact"
         title="Me contacter"
         titlemail="Par mail"
         titlephone="Par téléphone"

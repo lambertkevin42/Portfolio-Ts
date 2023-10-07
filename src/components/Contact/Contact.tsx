@@ -11,9 +11,11 @@ interface ContactProps {
   text2: string;
   imgAlt: string;
   imgAlt1: string;
+  id: string;
 }
 
 const Contact: React.FC<ContactProps> = ({
+  id,
   title,
   titlemail,
   titlephone,
@@ -23,16 +25,16 @@ const Contact: React.FC<ContactProps> = ({
   imgAlt1,
 }) => {
   return (
-    <div className="contact">
+    <div className="contact" id={id}>
       <h2 className="contact-title">{title}</h2>
       <div className="contact-mail">
-        <h3 className="contact-mail-title">{titlemail}</h3>
         <img className="contact-mail-img" src={mail} alt={imgAlt} />
+        <h3 className="contact-mail-title">{titlemail}</h3>
         <p className="contact-mail-text">{text1}</p>
       </div>
       <div className="contact-phone">
-        <h3 className="contact-phone-title">{titlephone}</h3>
         <img className="contact-phone-img" src={phone} alt={imgAlt1} />
+        <h3 className="contact-phone-title">{titlephone}</h3>
         <p className="contact-phone-text">{text2}</p>
       </div>
     </div>
