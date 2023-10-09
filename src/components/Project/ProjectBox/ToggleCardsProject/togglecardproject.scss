@@ -5,7 +5,8 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    
+   
+
     &-content{
         overflow: hidden;
         display: flex;
@@ -13,7 +14,8 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: vars.$gutter*2; 
+        gap: vars.$gutter*2;
+        
         
         p{
             width: 100%;
