@@ -17,8 +17,11 @@
         text-align: center;  
         
         p{
-            width: 80%;
+            width: 100%;
+            line-height: vars.$gutter*1.5;
         }
+
+        
     }
 }
 

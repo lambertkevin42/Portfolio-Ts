@@ -13,17 +13,21 @@ const ToggleCardDesign: React.FC = () => {
       <div className={`${toggleButtonDesignIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos
-            illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam molestiae
-            error, sunt ut autem atque similique hic.
+            Issue initialement d'un master en design obtenu en 2019, j'ai naturellement un esprit
+            créatif. Pour moi l'expérience utilisateur est très importante, c'est pourquoi j'y prête
+            toute mon attention lors de mes divers projets. Mes diverses expériences dans ce domaine
+            et ma maîtrise des différents logiciels de la suite Adobe, sont autant d'aouts que je
+            met au service du développement web. C'était donc une évidence pour moi de me
+            spécialiser en front.
           </p>
           <SliderDesign />
           <div className="list">
             <h2 className="list-title">Les petits plus du designer</h2>
             <ul className="list-items">
-              <li>Crayon / papier</li>
+              <li>Créativité</li>
               <li>Wireframe</li>
               <li>Maquette</li>
+              <li>Gestion de projet</li>
             </ul>
           </div>
         </div>

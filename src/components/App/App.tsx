@@ -27,7 +27,7 @@ const App: React.FC = () => {
       <ToTop />
       <MyCard
         title="Bienvenue."
-        textUp="Je m'appelle Kévin Lambert, je suis développeur Frontend."
+        textUp="Je m'appelle Kévin Lambert, développeur Frontend de 29 ans, je suis aujourd'hui à la recherche d'opportunités."
         text1="Originaire de Saint-Etienne, je suis heureux de vous présenter mon portfolio."
         text2="Geek, passionné de création et de développement, j'accorde une attention toute particulière à l'expérience utilisateur de chacun de mes projets. Espérant que votre expérience ici, sera des plus agréables, je vous laisse me découvrir."
         imgAlt="kévin lambert"

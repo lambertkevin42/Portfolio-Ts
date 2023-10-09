@@ -51,9 +51,37 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
             </div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt nostrum eos
-            illo ea dolore obcaecati sapiente sint quasi numquam! Asperiores laboriosam molestiae
-            error, sunt ut autem atque similique hic.
+            <h2>Description du projet</h2>
+          </p>
+          <p>
+            Je vous présente par le biais de ce projet un de mes hobbits: des oeuvres faites avec du
+            scotch de déménagement. En effet, ce projet avait deux objectifs principaux.
+          </p>
+          <p>
+            Le premier, pouvoir présenter un site gallerie, qui propose une découverte de ce que je
+            réalise à mes heures perdues. J'ai donc concentré l'epérience utilisateur sur la
+            simplicité de l'expérience afin de mettre réellement en valeurs mes oeuvres artistiques.
+          </p>
+          <p>
+            Le second, optimiser les performances et les CSP de ce projet afin d'obtenir 100% sur
+            gtxmetrix.L'optimisation rend l'expérience utilisateur plus fluide et donc plus
+            agréable. Ce petit projet personnel était en toute logique désigner pour cet exercice.
+          </p>
+          <p>
+            Pour voir ce projet et assouvir votre curiosité{' '}
+            <a href="https://scotchart.surge.sh/">cliquer ici</a>
+          </p>
+          <p>
+            <h2>Le code derriere ce projet</h2>
+          </p>
+          <p>React</p>
+          <p>Redux</p>
+          <p>HTML</p>
+          <p>SCSS</p>
+          <p>Le petit plus : L'utilisation du format Webp</p>
+          <p>
+            Pour ce qui est de la mise en production de ce projet je me suis servis de Surge qui
+            offre une utilisation simple et efficace en ligne de commande.
           </p>
         </div>
       </div>

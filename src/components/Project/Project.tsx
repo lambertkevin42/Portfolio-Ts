@@ -21,14 +21,14 @@ const Project: React.FC<ProjectProps> = ({ title, id }) => {
         techno3="Symfony"
         techno4="API Rest"
         techno5="MySQL"
-        intro="Bonjour ceci est un projet perso"
+        intro="Ariane est une plateforme de mise en relation des divers acteurs de la chaine humanitaire et sociale. Ce projet Ariane à été réalisé en groupe de 4 (2 dev front en React & 2 dev back en Symfony). Cette Application tripartite a pour but de permettre la mise en relation des différents acteurs sité précedement afin de résoudre des difficultés spécifiques, telles que des carences matérielles ou humaines"
       />
       <ProjectBox
         title="Scotch Art"
         techno="React"
         techno1="Redux"
         techno2="SCSS"
-        intro="Bonjour ceci est un projet perso"
+        intro="ScothArt est un projet personnel visant à mettre en lumière les oeuvres artistiques que je produit à mes heures perdues. Pour ce projet je souhaitais créer un site gallerie simple et efficace sans superflux afin de mettre en avant uniquement mes oeuvres au scotch. "
       />
       <ProjectBox2
         title="Portfolio"
