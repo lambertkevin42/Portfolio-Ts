@@ -50,9 +50,7 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
               />
             </div>
           </div>
-          <p>
-            <h2>Description du projet</h2>
-          </p>
+          <h2>Description du projet</h2>
           <p>
             Je vous présente par le biais de ce projet un de mes hobbits: des oeuvres faites avec du
             scotch de déménagement. En effet, ce projet avait deux objectifs principaux.
@@ -71,9 +69,7 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
             Pour voir ce projet et assouvir votre curiosité{' '}
             <a href="https://scotchart.surge.sh/">cliquer ici</a>
           </p>
-          <p>
-            <h2>Le code derriere ce projet</h2>
-          </p>
+          <h2>Le code derriere ce projet</h2>
           <p>React</p>
           <p>Redux</p>
           <p>HTML</p>

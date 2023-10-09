@@ -14,9 +14,7 @@ const ToggleCardProjectPortfolio: React.FC = () => {
         }`}
       >
         <div className="togglecardproject-content">
-          <p>
-            <h2>Description du projet</h2>
-          </p>
+          <h2>Description du projet</h2>
           <p>
             Afin de mettre le plus de chances de mon côté et de ne rater aucunes opportunité, j'ai
             réalisé ce projet portfolio qui vous donne un aperçu de qui je suis et de ce que je
@@ -34,9 +32,7 @@ const ToggleCardProjectPortfolio: React.FC = () => {
             c'était donc une occasion à ne pas manquer de palier à cette petite lacune. J'ai donc
             entrepris la réalisation de mon portfolio en utilisant Typescript.
           </p>
-          <p>
-            <h2>Le code derriere ce projet</h2>
-          </p>
+          <h2>Le code derriere ce projet</h2>
           <p>React</p>
           <p>Redux</p>
           <p>Typescript</p>

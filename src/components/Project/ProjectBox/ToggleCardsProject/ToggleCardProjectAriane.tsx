@@ -50,9 +50,7 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
               />
             </div>
           </div>
-          <p>
-            <h2>Description du projet</h2>
-          </p>
+          <h2>Description du projet</h2>
           <p>
             L’idée de ce site à vue le jour, suite à la guerre en Ukraine, où l’on a pu constater un
             élan de solidarité envers ce pays et son peuple. Il nous a paru utile de créer une
@@ -74,9 +72,7 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
           <p>
             Vous êtes au bon endroit : Ariane vous guide dans toutes vos démarches, suivez le fil !
           </p>
-          <p>
-            <h2>Mon rôle dans ce projet</h2>
-          </p>
+          <h2>Mon rôle dans ce projet</h2>
           <p>Lead Dev Front</p>
           <p>Graphiste</p>
           <p>
