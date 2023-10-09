@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({ title, id }) => {
         techno1="Redux"
         techno2="SCSS"
         techno3="Typescript"
-        intro="Bonjour ceci est un projet perso"
+        intro="Ce projet est celui que vous visité actuellement, il me permet de vous présenter brievement qui je suis et ce que je fait. J'espère qu'il vous plait et qu'il me permettra d'obtenir quelques belles oportunités. Si ce projet vous donne envie d'en apprendre plus sur moi et mes compétences de développeur web front ne rater pas l'occasion de me contacter, ça se passe juste un peu plus bas !!"
       />
     </div>
   );
