@@ -52,15 +52,15 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
           </div>
           <h2>Description du projet</h2>
           <p>
-            L’idée de ce site à vue le jour, suite à la guerre en Ukraine, où l’on a pu constater un
+            L’idée de ce site à vue le jour suite à la guerre en Ukraine, où l’on a pu constater un
             élan de solidarité envers ce pays et son peuple. Il nous a paru utile de créer une
             plateforme permettant l’organisation des différentes structures autour de besoins divers
             comme le transport, le don de médicaments mais aussi de vêtements par exemple.
           </p>
           <p>
-            Dans ce site on retrouve des annonces représentant des besoins postés par des
+            Sur ce site on retrouve des annonces représentant des besoins postés par des
             associations (connectées). Les volontaires (connectés) ont la possibilité de candidater
-            aux annonces pour apporter l’aide exprimer dans l’annonce de l’association. Une personne
+            aux annonces pour apporter l’aide exprimée dans l’annonce de l’association. Une personne
             dans le besoin (non connectée) peut également trouver les coordonnées pour contacter
             l’association.
           </p>
@@ -77,12 +77,11 @@ const ToggleCardProjectAriane: React.FC<CardProjectArianeProps> = ({
           <p>Graphiste</p>
           <p>
             En travaillant avec la méthode SCRUM, j'ai pris le rôle de Lead Dev Front afin de
-            maintenir une fluidité dans notre travail d'équipe et de pouvoir respecter les délais.
-            Mes compétences sur les logiciels de design m'ont permis de créer les contenus graphique
-            de notre projet. Côté développement web, j'ai réalisé le responsive design,
-            l'intégration, la création des divers composants React et les calls API REST (via
-            axios). J'avais également pour responsabilité la gestion et l'optimisation de
-            l'expérience utilisateur.
+            maintenir une fluidité dans notre travail d'équipe afin de respecter les délais. Mes
+            compétences sur les logiciels de design m'ont permis de créer les contenus graphique de
+            notre projet. Côté développement web, j'ai réalisé le responsive design, l'intégration,
+            la création des divers composants React et les calls API REST (via axios). J'avais
+            également pour responsabilité la gestion et l'optimisation de l'expérience utilisateur.
           </p>
         </div>
       </div>

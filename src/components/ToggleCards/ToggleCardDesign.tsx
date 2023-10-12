@@ -13,15 +13,16 @@ const ToggleCardDesign: React.FC = () => {
       <div className={`${toggleButtonDesignIsOpen ? 'togglecard' : 'togglecard-closed'}`}>
         <div className="togglecard-content">
           <p>
-            Issue initialement d'un master en design obtenu en 2019, j'ai naturellement un esprit
-            créatif. Pour moi l'expérience utilisateur est très importante, c'est pourquoi j'y prête
-            toute mon attention lors de mes divers projets. Mes diverses expériences dans ce domaine
-            et ma maîtrise des différents logiciels de la suite Adobe, sont autant d'aouts que je
-            met au service du développement web. Vous pourrez d'ailleurs observer dans mes
-            différents projets, les quelques contenu graphiques que j'ai créer pour nourrir le front
-            de façon personnalisé.Je n'aurais donc aucune difficulté à travailler en symbiose avec
-            le pôle artistique et les designers de votre entreprise. Au vu de mon parcour passé et
-            de mes envies futures, c'était donc une évidence pour moi de me spécialiser en front.
+            Ayant un esprit créatif, je me suis naturellement tourné vers un MASTER en design, que
+            j'ai obtenu en 2019. Pour moi l'expérience utilisateur est très importante, c'est
+            pourquoi j'y prête toute mon attention lors de mes divers projets. Mes multiples
+            expériences dans ce domaine et ma maîtrise des différents logiciels de la suite Adobe,
+            sont autant d'atouts que je mets au service du développement web. Vous pourrez
+            d'ailleurs observer dans mes différents projets, les quelques contenus graphiques que
+            j'ai créé pour nourrir le front de façon personnalisé.Je n'aurais donc aucune difficulté
+            à travailler en symbiose avec le pôle artistique et les designers de votre entreprise.
+            Au vu de mon parcours passé et de mes envies futures, la spécialisation en front était
+            une évidence.
           </p>
           <SliderDesign />
           <div className="list">

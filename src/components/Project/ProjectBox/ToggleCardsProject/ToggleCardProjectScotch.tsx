@@ -53,17 +53,17 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
           <h2>Description du projet</h2>
           <p>
             Je vous présente par le biais de ce projet un de mes hobbits: des oeuvres faites avec du
-            scotch de déménagement. En effet, ce projet avait deux objectifs principaux.
+            scotch de déménagement. Ce projet a deux objectifs principaux.
           </p>
           <p>
-            Le premier, pouvoir présenter un site gallerie, qui propose une découverte de ce que je
-            réalise à mes heures perdues. J'ai donc concentré l'epérience utilisateur sur la
-            simplicité de l'expérience afin de mettre réellement en valeurs mes oeuvres artistiques.
+            Le premier: présenter un site gallerie qui propose une découverte de ce que je réalise à
+            mes heures perdues. J'ai donc concentré l'expérience utilisateur sur la simplicité de la
+            visite dans le but de mettre réellement en valeurs mes oeuvres artistiques.
           </p>
           <p>
-            Le second, optimiser les performances et les CSP de ce projet afin d'obtenir 100% sur
-            gtxmetrix.L'optimisation rend l'expérience utilisateur plus fluide et donc plus
-            agréable. Ce petit projet personnel était en toute logique désigner pour cet exercice.
+            Le second: optimiser les performances et les CSP de ce projet afin d'obtenir 100% sur
+            gtxmetrix. L'optimisation rend l'expérience utilisateur plus fluide et donc plus
+            agréable. Ce projet personnel était en toute logique désigné pour cet exercice.
           </p>
           <p>
             Pour voir ce projet et assouvir votre curiosité{' '}
@@ -76,7 +76,7 @@ const ToggleCardProjectScotch: React.FC<CardProjectScotchProps> = ({
           <p>SCSS</p>
           <p>Le petit plus : L'utilisation du format Webp</p>
           <p>
-            Pour ce qui est de la mise en production de ce projet je me suis servis de Surge qui
+            Pour ce qui est de la mise en production de ce projet, je me suis servis de Surge qui
             offre une utilisation simple et efficace en ligne de commande.
           </p>
         </div>
