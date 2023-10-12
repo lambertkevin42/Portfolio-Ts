@@ -1,0 +1,99 @@
+@use 'src/styles/vars';
+
+.mycard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-title{
+        font-size: 2rem;     
+        padding: vars.$gutter*0.6;
+        margin-left: vars.$gutter;
+    }
+
+    &-infos{
+        width: 90%;
+        background-color: vars.$dark;
+        padding: vars.$gutter*0.5;
+        margin: vars.$gutter;
+        border: 2px solid vars.$dark;
+        border-radius: 10px;
+        line-height: vars.$gutter*1.5;
+
+        &-textUp{
+            padding: vars.$gutter*0.5;
+            font-size: 0.9rem;
+        }
+
+        &-text{
+            padding: vars.$gutter*0.5;
+            font-size: 0.9rem;
+        }
+
+    }
+
+
+    &-img{
+        width: 320px;
+        opacity: 0.9;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .mycard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        &-infos{
+            width: 40%;
+        }
+    
+        &-title{
+            width: 100%;
+            margin-left: vars.$gutter*3;
+        }
+        &-img{
+            width: 40%;    
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .mycard{
+        &-infos{
+            width: 40%;
+        }
+    
+        &-title{
+            margin-left: vars.$gutter*5;
+        }
+        &-img{
+            width: 30%;    
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .mycard{
+
+        &-infos{
+            width: 30%;
+        }
+    
+        &-title{
+            margin-left: vars.$gutter*10;
+            margin-top: vars.$gutter*2;
+        }
+        &-img{
+            width: 25%;    
+        }
+    }
+}

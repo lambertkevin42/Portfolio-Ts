@@ -1,0 +1,85 @@
+@use 'src/styles/vars';
+
+.togglecardproject{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+
+    &-content{
+        overflow: hidden;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: vars.$gutter*2;
+        
+        
+        p{
+            width: 100%;
+        }
+
+        h2{
+            text-transform: capitalize;
+            font-size: 1.2rem;
+            text-decoration:underline;
+        }
+
+        a{
+            background-color: white;
+            border-radius: 5px;
+            color: vars.$dark;
+            padding: 2px;
+        }
+
+        &-images{
+            display: flex;
+            flex-direction: column;
+            gap: vars.$gutter;
+            width: 100%;
+            &-container{
+                width: 100%;
+                gap: vars.$gutter;
+            }
+            &-element{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.togglecardproject-closed{
+    display: none;
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+    .togglecardproject{
+        display: flex;
+        flex-direction: column;
+        &-content{
+            width: 100%;
+            
+            p{
+                width: 80%;
+            }
+
+            &-images{
+                align-items: center;
+                &-container{
+                    overflow: hidden;
+                    width: 60%;
+                    max-height: 700px;
+                }
+                &-element{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,72 @@
+@use 'src/styles/vars';
+
+.projectbox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: vars.$dark;
+    border: 2px solid vars.$dark;
+    border-radius: 10px;
+    gap: vars.$gutter*2;
+    text-align: center;
+    padding: vars.$gutter;
+
+
+    &-title{
+        width:70%;
+        font-size: 1.7rem;
+        
+    }
+    &-techno{
+        display: flex;
+        min-height: 80px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: vars.$gutter*0.3;
+        
+    }
+    &-techno-simple{
+        padding: vars.$gutter*0.3;
+        width: fit-content;
+        height: fit-content;
+        border-radius: 5px;
+        background-color: white;
+        color: vars.$dark;
+    }
+    &-intro{
+        width: 85%;
+        line-height: vars.$gutter*1.3;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .projectbox{
+        width: 70%;
+        align-self:first baseline;
+        width: 45%;
+
+        &-intro{
+            width: 85%;
+            min-height: 230px;
+            line-height: vars.$gutter*1.3;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .projectbox{
+
+        &-intro{
+            min-height: 150px;
+        }
+    }
+    
+}

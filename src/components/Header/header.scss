@@ -1,0 +1,22 @@
+@use 'src/styles/vars';
+
+.header{
+    display: flex;
+    padding: vars.$gutter*2;
+
+    &-text{
+        font-size: 45px;
+        text-shadow: vars.$grey 5px 0 5px;
+        letter-spacing: -20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .header{  
+        &-text{
+            width: 100%;
+        }
+    }
+}

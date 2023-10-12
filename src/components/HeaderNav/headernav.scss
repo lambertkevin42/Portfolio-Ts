@@ -1,0 +1,104 @@
+@use 'src/styles/vars';
+
+.header-nav {
+    width: 100%;
+
+    &-links {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: vars.$gutter*3;
+        padding:vars.$gutter;
+        
+        &--closed {
+            display: none;    
+            }
+    }
+    
+    &-link {
+        margin-bottom: vars.$gutter*0.4;
+        background: vars.$dark;
+        border-radius: 5px;
+        padding: vars.$gutter;
+        color: vars.$white;
+        width: auto;
+        text-align: center;
+        font-size: 1rem;
+        transition: color .7s ease-in-out, box-shadow .7s ease-in-out;
+  
+        &:hover {
+            box-shadow: inset 400px 0 0 0 vars.$white;
+            color: vars.$dark;
+        }
+    }
+  
+    &-button {
+        position: absolute;
+        right: 2vh;
+        top: 3vh;
+        background: none;
+        color: vars.$white;
+        border: 2px solid vars.$white;
+        border-radius: 5px;
+        width: 4.5vh;
+        height: 4.5vh;
+        
+        &:after {
+            font-size: 20px;
+            content: "\2716";
+        }
+    }
+    
+    &-button--closed {
+        position: absolute;
+        right: 2vh;
+        top: 3vh;
+        background: none;
+        color: vars.$white;
+        border: 2px solid vars.$white;
+        border-radius: 5px;
+        width: 4.5vh;
+        height: 4.5vh;
+        
+        &:after {
+            content: "\2630";
+            font-size: 20px;
+        }
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    button {
+        display: none;
+    }
+
+    .header-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+
+        &-links, &-links--closed {
+        position:static;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        gap: 5rem;
+        }
+
+        &-link {
+        color: vars.$white;
+        margin: vars.$gutter*0.5;
+        padding: vars.$gutter*0.5;
+        font-size: large;
+        transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+        
+            &:hover {
+                box-shadow: inset 16vh 0 0 0 vars.$white;
+                color: vars.$dark;
+            }
+        }
+    }
+}
