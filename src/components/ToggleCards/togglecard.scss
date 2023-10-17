@@ -61,37 +61,6 @@
 }
 
 
-@media only screen and (min-width: 1024px) {
-
-    .togglecard{
-        display: flex;
-        flex-direction: column;
-        
-<<<<<<< HEAD
-        &-content{  
-            p{
-                width: 80%;
-                line-height: vars.$gutter*1.5;
-                min-height: 550px;
-            }
-            
-        }
-       
-    }
-}
-
-=======
-        &-content{
-            
-            p{
-                min-height: 600px;
-            }
-    
-            
-        }
-    
-    }
-}
 
 @media only screen and (min-width: 1024px) {
 
@@ -110,7 +79,7 @@
     
     }
 }
->>>>>>> 6d0dee4f30ee739313a8e1767e043b4f2696fdb3
+
 
 @media only screen and (min-width: 1440px) {
 
