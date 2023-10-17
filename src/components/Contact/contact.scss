@@ -79,3 +79,34 @@
         }
     }
 }
+
+@media only screen and (min-width: 2560px) {
+    .contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: 1.8rem;
+
+        &-title{
+            font-size: 4.5rem;
+        }
+        &-mail{
+            &-img{
+                width: 70px;
+            }
+            &-title{
+                font-size: 2rem;
+                color: white;
+            }
+        }
+        &-phone{
+            &-img{
+                width: 70px;
+            }
+            &-title{
+                font-size: 2rem;
+                color: white;
+            }
+        }
+    }
+}

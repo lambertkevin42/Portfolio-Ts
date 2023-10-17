@@ -50,6 +50,37 @@
         width: 70%;
         align-self:first baseline;
         width: 45%;
+        &-intro{
+            min-height: 230px;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .projectbox{
+        &-intro{
+            min-height: 150px;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 2560px) {
+
+    .projectbox{
+        font-size: 1.8rem;
+        line-height: vars.$gutter*2.5;
+        &-intro{
+            min-height: 200px;
+            width: 85%;
+            line-height: vars.$gutter*2.5;
+        }
+        &-title{
+            width:70%;
+            font-size: 2.5rem;       
+        }
     }
     
 }

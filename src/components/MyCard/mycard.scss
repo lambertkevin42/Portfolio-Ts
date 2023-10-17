@@ -97,3 +97,27 @@
         }
     }
 }
+
+@media only screen and (min-width: 2560px) {
+
+    .mycard{
+
+        &-infos{
+            width: 30%;
+        }
+    
+        &-title{
+            font-size: 4.5rem;
+            margin-left: vars.$gutter*10;
+            margin-top: vars.$gutter*2;
+        }
+        &-img{
+            width: 25%;    
+        }
+
+        p{
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+        }
+    }
+}

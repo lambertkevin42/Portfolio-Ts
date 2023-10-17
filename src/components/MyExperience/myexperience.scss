@@ -38,3 +38,15 @@
     }
 
 }
+
+
+@media only screen and (min-width: 2560px) {
+
+    .myexperience{
+        &-title{
+            font-size: 4.5rem;
+            
+        }
+    }
+
+}

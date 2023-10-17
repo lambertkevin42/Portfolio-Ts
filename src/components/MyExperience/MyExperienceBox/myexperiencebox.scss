@@ -43,3 +43,16 @@
     }
 
 }
+
+@media only screen and (min-width: 2560px) {
+
+    .myexperiencebox{
+        font-size: 1.8rem;
+
+        &-intro{
+            width: 85%;
+            line-height: vars.$gutter*2.5;
+        }
+    }
+
+}

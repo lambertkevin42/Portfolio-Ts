@@ -56,8 +56,63 @@
     .togglecard{
         display: flex;
         flex-direction: column;
+  
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .togglecard{
+        display: flex;
+        flex-direction: column;
         
+        &-content{  
+            p{
+                width: 80%;
+                line-height: vars.$gutter*1.5;
+                min-height: 550px;
+            }
+            
+        }
        
-    
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    .togglecard{
+        display: flex;
+        flex-direction: column;
+        
+        &-content{  
+            p{
+                width: 70%;
+                line-height: vars.$gutter*1.5;
+                min-height: 450px;
+            }
+            
+        }
+       
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+
+    .togglecard{
+        display: flex;
+        flex-direction: column;
+        
+        &-content{  
+            p{
+                font-size: 1.8rem;
+                width: 70%;
+                line-height: vars.$gutter*2.5;
+                min-height: 680px;
+            }
+            
+        }
+       
     }
 }

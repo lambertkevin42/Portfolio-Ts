@@ -102,3 +102,22 @@
         }
     }
 }
+
+@media only screen and (min-width: 2560px) {
+
+    .header-nav {
+        
+
+        &-links, &-links--closed {
+        position:static;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        gap: 5rem;
+        }
+
+        &-link {
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -39,3 +39,15 @@
     }
 
 }
+
+@media only screen and (min-width: 2560px) {
+
+    .project{
+
+        &-title{
+            font-size: 4.5rem;
+            
+        }
+    }
+
+}

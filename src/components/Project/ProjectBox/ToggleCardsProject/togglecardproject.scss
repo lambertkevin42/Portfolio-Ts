@@ -82,3 +82,50 @@
     }
 
 }
+
+@media only screen and (min-width: 1440px) {
+
+    .togglecardproject{
+        &-content{
+            &-images{
+                align-items: center;
+                &-container{
+                    width: 100%;
+                }
+                &-element{
+                    width: 60%;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 2560px) {
+
+    .togglecardproject{
+        display: flex;
+        flex-direction: column;
+        &-content{
+            width: 100%;
+            p{
+                width: 80%;
+            }
+            h2{
+                font-size: 2.2rem;
+            }
+            &-images{
+                align-items: center;
+                &-container{
+                    overflow: hidden;
+                    width: 100%;
+                    max-height: 700px;
+                }
+                &-element{
+                    width: 40%;
+                }
+            }
+        }
+    }
+
+}

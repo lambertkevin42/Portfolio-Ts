@@ -115,3 +115,17 @@
     }
 
   }
+
+  @media only screen and (min-width: 2560px) {
+
+    .slide-content{
+        font-size: 1.8rem;
+        h2{
+          font-size: 1.8rem;
+        }
+      }
+      .list{
+        font-size: 1.8rem;
+      }
+    
+}
